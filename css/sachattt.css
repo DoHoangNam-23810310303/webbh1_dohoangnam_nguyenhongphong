@@ -1,0 +1,35 @@
+.book-item {
+    height: 300px;
+    /* Điều chỉnh chiều cao của mỗi sách */
+    overflow: hidden;
+    /* Ẩn phần vượt quá chiều cao đã thiết lập */
+    text-align: center;
+    border: 1px solid #ccc;
+    /* Thêm viền để phân biệt mỗi sách */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.book-item:hover {
+    border: 1px solid red;
+}
+
+.book-item img {
+    max-height: 150px;
+    /* Điều chỉnh chiều cao tối đa của hình ảnh */
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.book-item .title_product {
+    height: 50px;
+    /* Cố định chiều cao của tiêu đề sách */
+    overflow: hidden;
+    /* Ẩn phần vượt quá chiều cao đã thiết lập */
+    margin-bottom: 5px;
+}
+
+.book-item .author {
+    color: blueviolet;
+    margin-bottom: 5px;
+}

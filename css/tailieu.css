@@ -1,0 +1,43 @@
+.document-item {
+    height: 430px;
+    /* Điều chỉnh chiều cao của mỗi tài liệu */
+    overflow: hidden;
+    /* Ẩn phần vượt quá chiều cao đã thiết lập */
+    text-align: center;
+    border: 1px solid #ccc;
+    /* Thêm viền để phân biệt mỗi tài liệu */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.document-item:hover {
+    border: 1px solid red;
+}
+
+.document-item img {
+    max-height: 250px;
+    /* Điều chỉnh chiều cao tối đa của hình ảnh */
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.document-item .title_product {
+    height: 50px;
+    /* Cố định chiều cao của tiêu đề tài liệu */
+    overflow: hidden;
+    /* Ẩn phần vượt quá chiều cao đã thiết lập */
+    margin-bottom: 5px;
+}
+
+.document-item p {
+    text-align: center;
+}
+
+.document-item .link_wrapper {
+    text-align: center;
+}
+
+.document-item .link_wrapper a {
+    display: inline-block;
+    margin-top: 10px;
+}

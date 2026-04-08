@@ -1,0 +1,35 @@
+.news-item {
+    height: 250px;
+    /* Điều chỉnh chiều cao của mỗi tin tức */
+    overflow: hidden;
+    /* Ẩn phần vượt quá chiều cao đã thiết lập */
+    text-align: center;
+    border: 1px solid #ccc;
+    /* Thêm viền để phân biệt mỗi tin tức */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.news-item:hover {
+    border: 1px solid red;
+}
+
+.news-item img {
+    max-height: 150px;
+    /* Điều chỉnh chiều cao tối đa của hình ảnh */
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.news-item .title_product {
+    height: 50px;
+    /* Cố định chiều cao của tiêu đề tin tức */
+    overflow: hidden;
+    /* Ẩn phần vượt quá chiều cao đã thiết lập */
+    margin-bottom: 5px;
+}
+
+.news-item a {
+    text-decoration: none;
+    color: #333;
+}

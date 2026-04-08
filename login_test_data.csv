@@ -1,0 +1,7 @@
+﻿tc_id,username,password,expected
+TC_LOGIN_01,admin,123456,success
+TC_LOGIN_02,admin,654321,fail
+TC_LOGIN_03,saiuser,123456,fail
+TC_LOGIN_04,,123456,fail
+TC_LOGIN_05,admin,,fail
+TC_LOGIN_06,,,fail

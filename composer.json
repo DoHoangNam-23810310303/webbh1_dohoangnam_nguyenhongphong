@@ -1,0 +1,17 @@
+{
+    "name": "webbh1/webbh1",
+    "description": "PHPUnit tests for WEBBH1",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webbh1\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webbh1\\Tests\\": "tests/"
+        }
+    }
+}

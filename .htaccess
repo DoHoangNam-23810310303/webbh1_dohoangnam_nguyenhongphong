@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^home$ index.php [NC,L,QSA]
+RewriteRule ^danhmuc/([0-9]*)$ index.php?quanly=danhmucbaiviet&id=$1 [NC,L,QSA]
+RewriteRule ^sanpham/([0-9]*)$ index.php?quanly=sanpham&id=$1 [NC,L,QSA]
+
+
