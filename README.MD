@@ -16,7 +16,7 @@ PHÂN CÔNG NHIỆM VỤ CỤ THỂ
 Nguyễn Hồng Phong: Thiết kế giao diện UI UX cho toàn bộ website sử dụng các công nghệ HTML, CSS và JavaScript. Hiện thực hóa giao diện các trang chức năng phía người dùng bao gồm Trang chủ, Trang danh sách sản phẩm theo danh mục và Trang chi tiết mặt hàng. Xây dựng giao diện Dashboard điều khiển dành riêng cho tài khoản Quản trị viên (Admin). Chuẩn bị dữ liệu mẫu, hình ảnh minh họa hệ thống, quản lý nội dung hiển thị trên website và viết các báo cáo tiến độ theo yêu cầu.
 
 CÔNG NGHỆ SỬ DỤNG
-Ngôn ngữ lập trình: PHP thuần (Không sử dụng CMS WordPress).
+Ngôn ngữ lập trình: PHP thuần.
 Giao diện Frontend: HTML5, CSS3, JavaScript.
 Cơ sở dữ liệu: MySQL.
 Môi trường chạy cục bộ: XAMPP / Laragon.
